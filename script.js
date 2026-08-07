@@ -29,7 +29,7 @@ const header = `
 
 <ul class="nav-links" id="navLinks">
 
-<li><a href="index.html">Home</a></li>
+<li><a href="Index.html">Home</a></li>
 
 <li><a href="about.html">About Us</a></li>
 <li><a href="image.html">Gallery</a></li>
@@ -42,7 +42,6 @@ const header = `
 <li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
 
 <li><a href="contact.html">Contact</a></li>
-
 </ul>
 
 </nav>
@@ -97,7 +96,7 @@ academic excellence.
 
 <ul>
 
-<li><a href="index.html">Home</a></li>
+<li><a href="Index.html">Home</a></li>
 
 <li><a href="about.html">About Us</a></li>
 <li><a href="image.html">Gallery</a></li>

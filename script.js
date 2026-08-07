@@ -41,7 +41,7 @@ const header = `
 
 <li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
 
-<li><a href="Contact.html">Contact</a></li>
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
 
@@ -101,6 +101,8 @@ academic excellence.
 <li><a href="About.html">About</a></li>
 <li><a href="Academics.html">Academics</a></li>
 <li><a href="Facility.html">Facilities</a></li>
+<li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
 

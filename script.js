@@ -1,872 +1,751 @@
-// ======================================================
-// APEX SCHOOL OF EXCELLENCE
-// script.js
-// ======================================================
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
 
-// ==========================================
-// HEADER INJECTION
-// ==========================================
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-document.addEventListener("DOMContentLoaded", function(){
+<title>Apex School of Excellence | CBSE School</title>
 
-const header = `
-<header id="mainHeader">
-<nav>
+<meta name="description"
+content="Apex School of Excellence - Premium CBSE School providing quality education, smart classrooms, innovation, leadership and holistic development.">
 
-<div class="logo-area">
-<img src="image/LOGO.jpeg" alt="School Logo">
+<meta name="keywords"
+content="CBSE School, Apex School of Excellence, School in Odisha, Smart School, Best School">
 
-<div class="logo-text">
-<h2>Apex School of Excellence</h2>
-<p>Knowledge • Character • Excellence</p>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- =========================
+PAGE LOADER
+========================= -->
+
+<div class="loader">
+<div class="loader-spinner"></div>
 </div>
-</div>
 
-<div class="menu-toggle" id="menuToggle">
-☰
-</div>
-
-<ul class="nav-links" id="navLinks">
-
-<li><a href="Index.html">Home</a></li>
-
-<li><a href="about.html">About Us</a></li>
-<li><a href="image.html">Gallery</a></li>
+<!-- Header automatically generated from script.js -->
 
 
-<li><a href="academics.html">Academics</a></li>
 
-<li><a href="facility.html">Facilities</a></li>
+<!-- =========================
+HERO SECTION
+========================= -->
 
-<li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
+<section class="hero">
 
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-</nav>
-</header>
-`;
-
-document.body.insertAdjacentHTML("afterbegin", header);
-
-});
-
-
-// ==========================================
-// FOOTER INJECTION
-// ==========================================
-
-document.addEventListener("DOMContentLoaded", function(){
-
-const footer = `
-
-<footer>
-
-<div class="footer-top">
+<div class="hero-overlay"></div>
 
 <div class="container">
 
-<div class="footer-grid">
+<div class="hero-content reveal">
 
-<div class="footer-column">
+<span class="hero-badge">
+🎓 Admissions Open 2026-27
+</span>
 
-<div class="footer-logo">
-
-<img src="image/LOGO.jpeg" alt="School Logo">
-
-<div>
-<h3>Apex School of Excellence</h3>
-<p>Empowering Future Leaders</p>
-</div>
-
-</div>
+<h1>
+Empowering Young Minds For
+A Brighter Tomorrow
+</h1>
 
 <p>
-Providing quality CBSE education
-through innovation, values and
-academic excellence.
+Apex School of Excellence is committed to nurturing
+future-ready learners through academic excellence,
+innovation, leadership development and values-based education.
+</p>
+
+<div class="hero-buttons">
+
+<a href="Contact.html" class="btn btn-primary">
+Apply Now
+</a>
+
+<a href="About.html" class="btn btn-secondary">
+Explore School
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+NEWS TICKER
+========================= -->
+
+<section class="news-ticker">
+
+<div class="news-label">
+Latest News
+</div>
+
+<div class="ticker-wrapper">
+
+<div class="ticker-content">
+
+Admissions Open for Session 2026-27 |
+CBSE Curriculum with Smart Learning |
+Science Exhibition on 15th August |
+Annual Sports Meet Registration Started |
+Olympiad Training Classes Available |
+School Ranked Among Top Emerging Schools
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+PRINCIPAL MESSAGE
+========================= -->
+
+<section class="section principal-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>
+Principal's Message
+</h2>
+
+<p>
+A message from our academic leader.
 </p>
 
 </div>
 
-<div class="footer-column">
+<div class="principal-wrapper">
 
-<h3>Quick Links</h3>
+<!-- <div class="principal-photo">
 
-<ul>
-
-<li><a href="Index.html">Home</a></li>
-
-<li><a href="about.html">About Us</a></li>
-<li><a href="image.html">Gallery</a></li>
-
-
-<li><a href="academics.html">Academics</a></li>
-
-<li><a href="facility.html">Facilities</a></li>
-
-<li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
+<img src="images/principal.jpg"
+<!-- alt="Principal"> -->
 
 </div>
 
-<div class="footer-column">
+<div class="principal-message">
 
-<h3>Useful Links</h3>
+<h3>
+Welcome to Apex School of Excellence
+</h3>
 
-<ul>
+<p>
+At Apex School of Excellence, we believe that education
+extends beyond textbooks and examinations. Our goal is
+to create an environment where every learner discovers
+their potential and develops confidence, creativity,
+leadership and integrity.
+</p>
 
-<li><a href="Mandatory Disclosure.html">
-Mandatory Disclosure
-</a></li>
+<p>
+Our dedicated educators use innovative teaching methods,
+technology-enabled learning and student-centered
+approaches to make education meaningful and engaging.
+</p>
 
-<li><a href="Contact.html">
+<p>
+We strive to inspire curiosity, encourage critical
+thinking and prepare students for success in a rapidly
+changing global world.
+</p>
+
+<p>
+Together with parents and the community, we nurture
+responsible citizens and lifelong learners who are
+ready to contribute positively to society.
+</p>
+
+<h4>
+— Principal
+</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+WHY CHOOSE US
+========================= -->
+
+<section class="section bg-light">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>
+Why Choose Apex School of Excellence
+</h2>
+
+<p>
+Providing world-class educational experiences.
+</p>
+
+</div>
+
+<div class="features-grid">
+
+<div class="feature-card reveal">
+
+<i class="fas fa-graduation-cap"></i>
+
+<h3>
+Academic Excellence
+</h3>
+
+<p>
+Strong CBSE curriculum with a focus on conceptual
+understanding and academic achievement.
+</p>
+
+</div>
+
+<div class="feature-card reveal">
+
+<i class="fas fa-laptop"></i>
+
+<h3>
+Smart Classrooms
+</h3>
+
+<p>
+Technology-integrated learning with digital boards,
+interactive content and modern teaching tools.
+</p>
+
+</div>
+
+<div class="feature-card reveal">
+
+<i class="fas fa-flask"></i>
+
+<h3>
+Advanced Laboratories
+</h3>
+
+<p>
+Fully equipped science, computer and mathematics
+laboratories for practical learning experiences.
+</p>
+
+</div>
+
+<div class="feature-card reveal">
+
+<i class="fas fa-shield-alt"></i>
+
+<h3>
+Safe Campus
+</h3>
+
+<p>
+24×7 CCTV surveillance, secure premises and trained
+staff ensuring student safety at all times.
+</p>
+
+</div>
+
+<div class="feature-card reveal">
+
+<i class="fas fa-futbol"></i>
+
+<h3>
+Sports Excellence
+</h3>
+
+<p>
+Comprehensive sports facilities encouraging physical
+fitness, teamwork and leadership.
+</p>
+
+</div>
+
+<div class="feature-card reveal">
+
+<i class="fas fa-users"></i>
+
+<h3>
+Holistic Development
+</h3>
+
+<p>
+Equal emphasis on academics, arts, culture,
+communication and personality development.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+SCHOOL HIGHLIGHTS
+========================= -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>
+School Highlights
+</h2>
+
+<p>
+Key features that make us different.
+</p>
+
+</div>
+
+<div class="highlights-grid">
+
+<div class="highlight-card">
+<i class="fas fa-chalkboard-teacher"></i>
+<h3>Smart Classes</h3>
+<p>Interactive digital classrooms.</p>
+</div>
+
+<div class="highlight-card">
+<i class="fas fa-book-open"></i>
+<h3>CBSE Curriculum</h3>
+<p>Future-focused academic framework.</p>
+</div>
+
+<div class="highlight-card">
+<i class="fas fa-bus"></i>
+<h3>Transport</h3>
+<p>Safe and GPS-enabled transport system.</p>
+</div>
+
+<div class="highlight-card">
+<i class="fas fa-shield-virus"></i>
+<h3>Security</h3>
+<p>Comprehensive campus security measures.</p>
+</div>
+
+<div class="highlight-card">
+<i class="fas fa-desktop"></i>
+<h3>Digital Learning</h3>
+<p>Technology-enabled education ecosystem.</p>
+</div>
+
+<div class="highlight-card">
+<i class="fas fa-trophy"></i>
+<h3>Achievements</h3>
+<p>Outstanding academic and co-curricular success.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+EVENT COUNTDOWN
+========================= -->
+
+<section class="section bg-light">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>Countdown To Annual Sports Meet</h2>
+
+<p>
+Get ready for the biggest sporting event of the year.
+</p>
+
+</div>
+
+<div class="countdown-wrapper">
+
+<div class="countdown-box">
+<h3 id="days">120</h3>
+<span>Days</span>
+</div>
+
+<div class="countdown-box">
+<h3 id="hours">12</h3>
+<span>Hours</span>
+</div>
+
+<div class="countdown-box">
+<h3 id="minutes">45</h3>
+<span>Minutes</span>
+</div>
+
+<div class="countdown-box">
+<h3 id="seconds">20</h3>
+<span>Seconds</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+FAQ SECTION
+========================= -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>Frequently Asked Questions</h2>
+
+<p>
+Answers to common queries from parents and students.
+</p>
+
+</div>
+
+<div class="faq-container">
+
+<div class="faq-item">
+
+<div class="faq-question">
+What curriculum does the school follow?
+</div>
+
+<div class="faq-answer">
+Apex School of Excellence follows the CBSE curriculum
+with a focus on academic excellence and holistic development.
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-question">
+Does the school provide transportation?
+</div>
+
+<div class="faq-answer">
+Yes. Safe and GPS-enabled transport facilities are available.
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-question">
+Are smart classrooms available?
+</div>
+
+<div class="faq-answer">
+All major classrooms are equipped with smart boards and
+digital learning tools.
+</div>
+
+</div>
+
+
+<div class="faq-item">
+
+<div class="faq-question">
+How can I apply for admission?
+</div>
+
+<div class="faq-answer">
+Visit our contact page or admission office to begin
+the enrollment process.
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+NEWSLETTER SECTION
+========================= -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="newsletter">
+
+<h2>
+Subscribe To School Updates
+</h2>
+
+<p>
+Receive admission notices, event updates,
+results and important announcements.
+</p>
+
+<form class="newsletter-form">
+
+<input
+type="email"
+id="newsletterEmail"
+placeholder="Enter Your Email Address">
+
+<button
+type="button"
+onclick="subscribeNewsletter()">
+
+Subscribe
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+CONTACT PREVIEW
+========================= -->
+
+<section class="section bg-light">
+
+<div class="container">
+
+<div class="section-header">
+
+<h2>Get In Touch</h2>
+
+<p>
+We are here to answer your questions.
+</p>
+
+</div>
+
+<div class="contact-preview-grid">
+
+<div class="contact-preview-card">
+
+<i class="fas fa-map-marker-alt"></i>
+
+<h3>Address</h3>
+
+<p>
+Apex School of Excellence<br>
+Bhubaneswar, Odisha, India
+</p>
+
+</div>
+
+<div class="contact-preview-card">
+
+<i class="fas fa-phone-alt"></i>
+
+<h3>Phone</h3>
+
+<p>
++91 XXXXX XXXXX
+</p>
+
+</div>
+
+<div class="contact-preview-card">
+
+<i class="fas fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>
+info@apexschool.edu.in
+</p>
+
+</div>
+
+</div>
+
+<div style="text-align:center; margin-top:40px;">
+
+<a href="Contact.html"
+class="btn btn-primary">
+
 Contact Us
-</a></li>
 
-<li><a href="#">
-Admissions
-</a></li>
-
-</ul>
-
-</div>
-
-<div class="footer-column">
-
-<h3>Contact Info</h3>
-
-<p>📍 Bhubaneswar, Odisha</p>
-<p>📞 +91 XXXXX XXXXX</p>
-<p>✉ info@apexschool.edu.in</p>
-
-<div class="social-links">
-
-<a href="#">F</a>
-<a href="#">I</a>
-<a href="#">Y</a>
+</a>
 
 </div>
 
 </div>
 
-</div>
+</section>
+
+
+
+<!-- =========================
+ADMISSION CTA
+========================= -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="future-goals">
+
+<h2>
+Start Your Child's Success Journey Today
+</h2>
+
+<p>
+Admissions are currently open for the new academic session.
+Become a part of a school that nurtures excellence.
+</p>
+
+<a href="Contact.html"
+class="btn btn-secondary">
+
+Apply For Admission
+
+</a>
 
 </div>
 
 </div>
 
-<div class="footer-bottom">
-© 2026 Apex School of Excellence.
-All Rights Reserved.
+</section>
+
+
+
+<!-- =========================
+ANNOUNCEMENT POPUP
+========================= -->
+
+<!-- <div
+id="announcementPopup"
+class="popup-overlay">
+
+<div class="popup">
+
+<span
+class="popup-close"
+onclick="closePopup()">
+
+&times;
+
+</span>
+
+<h2>
+Admissions Open 2026–27
+</h2>
+
+<p>
+
+Applications are now being accepted for
+Pre-Primary to Senior Secondary classes.
+
+Limited seats available.
+
+</p>
+
+<br>
+
+<a href="Contact.html"
+class="btn btn-primary">
+
+Apply Now
+
+</a>
+
 </div>
 
-</footer>
+</div>
 
-`;
+ -->
 
-document.body.insertAdjacentHTML("beforeend", footer);
+<!-- =========================
+MODAL SAMPLE
+========================= -->
 
-});
+<div
+id="eventModal"
+class="modal">
 
+<div class="modal-content">
 
+<h2>
+School Event Information
+</h2>
 
-// ==========================================
-// MOBILE MENU
-// ==========================================
+<p>
+Detailed information about upcoming school events
+can be displayed here.
+</p>
 
-document.addEventListener("click",function(e){
+<button
+class="btn btn-primary"
+onclick="closeModal('eventModal')">
 
-if(e.target.id==="menuToggle"){
+Close
 
-document
-.getElementById("navLinks")
-.classList.toggle("active");
+</button>
 
-}
+</div>
 
-});
+</div>
 
 
 
-// ==========================================
-// ACTIVE NAVIGATION
-// ==========================================
+<!-- =========================
+FOOTER PLACEHOLDER
+Footer comes from script.js
+========================= -->
 
-window.addEventListener("load",()=>{
 
-const page =
-window.location.pathname
-.split("/")
-.pop();
 
-document.querySelectorAll(".nav-links a")
-.forEach(link=>{
+<!-- =========================
+SCRIPT FILE
+========================= -->
 
-const href = link.getAttribute("href");
+<script src="script.js"></script>
 
-if(href===page){
+</body>
+</html>
 
-link.classList.add("active");
-
-}
-
-});
-
-});
-
-
-
-
-// ==========================================
-// STICKY HEADER
-// ==========================================
-
-window.addEventListener("scroll",()=>{
-
-const header =
-document.getElementById("mainHeader");
-
-if(!header) return;
-
-if(window.scrollY>80){
-
-header.classList.add("scrolled");
-
-}else{
-
-header.classList.remove("scrolled");
-
-}
-
-});
-
-
-
-
-// ==========================================
-// SCROLL REVEAL
-// ==========================================
-
-function revealElements(){
-
-const reveals =
-document.querySelectorAll(".reveal");
-
-reveals.forEach(item=>{
-
-const top =
-item.getBoundingClientRect().top;
-
-const visible = 120;
-
-if(top < window.innerHeight-visible){
-
-item.classList.add("active");
-
-}
-
-});
-
-}
-
-window.addEventListener("scroll",revealElements);
-window.addEventListener("load",revealElements);
-
-
-
-
-// ==========================================
-// COUNTER ANIMATION
-// ==========================================
-
-function animateCounters(){
-
-const counters =
-document.querySelectorAll(".counter");
-
-counters.forEach(counter=>{
-
-const target =
-+counter.dataset.target;
-
-let count = 0;
-
-const speed = target/150;
-
-function update(){
-
-count += speed;
-
-if(count<target){
-
-counter.innerText =
-Math.ceil(count);
-
-requestAnimationFrame(update);
-
-}else{
-
-counter.innerText = target;
-
-}
-
-}
-
-update();
-
-});
-
-}
-
-window.addEventListener("load",animateCounters);
-
-
-
-
-// ==========================================
-// FAQ ACCORDION
-// ==========================================
-
-document.addEventListener("click",function(e){
-
-if(e.target.classList.contains("faq-question")){
-
-const parent =
-e.target.parentElement;
-
-parent.classList.toggle("active");
-
-}
-
-});
-
-
-
-
-// ==========================================
-// BACK TO TOP BUTTON
-// ==========================================
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-const btn =
-document.createElement("div");
-
-btn.className="back-to-top";
-btn.innerHTML="↑";
-
-document.body.appendChild(btn);
-
-btn.addEventListener("click",()=>{
-
-window.scrollTo({
-top:0,
-behavior:"smooth"
-});
-
-});
-
-window.addEventListener("scroll",()=>{
-
-if(window.scrollY>300){
-
-btn.classList.add("show");
-
-}else{
-
-btn.classList.remove("show");
-
-}
-
-});
-
-});
-
-
-
-
-// ==========================================
-// SCROLL PROGRESS BAR
-// ==========================================
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-const progress =
-document.createElement("div");
-
-progress.className="progress-bar";
-
-document.body.appendChild(progress);
-
-window.addEventListener("scroll",()=>{
-
-const total =
-document.documentElement.scrollHeight
--window.innerHeight;
-
-const percent =
-(window.scrollY/total)*100;
-
-progress.style.width =
-percent+"%";
-
-});
-
-});
-
-
-
-
-// ==========================================
-// DARK MODE
-// ==========================================
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-const dark =
-document.createElement("div");
-
-dark.className="dark-toggle";
-dark.innerHTML="☾";
-
-document.body.appendChild(dark);
-
-dark.addEventListener("click",()=>{
-
-document.body.classList.toggle("dark-mode");
-
-});
-
-});
-
-
-
-
-// ==========================================
-// PAGE LOADER
-// ==========================================
-
-window.addEventListener("load",()=>{
-
-const loader =
-document.querySelector(".loader");
-
-if(loader){
-
-loader.style.display="none";
-
-}
-
-});
-
-
-
-
-// ==========================================
-// TESTIMONIAL SLIDER
-// ==========================================
-
-let testimonialIndex=0;
-
-function testimonialSlider(){
-
-const slides =
-document.querySelectorAll(".testimonial-card");
-
-if(slides.length===0) return;
-
-slides.forEach(item=>{
-item.style.display="none";
-});
-
-testimonialIndex++;
-
-if(testimonialIndex>slides.length){
-
-testimonialIndex=1;
-
-}
-
-slides[testimonialIndex-1]
-.style.display="block";
-
-setTimeout(testimonialSlider,5000);
-
-}
-
-window.addEventListener("load",testimonialSlider);
-
-
-
-
-// ==========================================
-// GALLERY FILTER
-// ==========================================
-
-function filterGallery(category){
-
-const items =
-document.querySelectorAll(".gallery-item");
-
-items.forEach(item=>{
-
-if(category==="all"){
-
-item.style.display="block";
-
-}else if(
-item.dataset.category===category
-){
-
-item.style.display="block";
-
-}else{
-
-item.style.display="none";
-
-}
-
-});
-
-}
-
-
-
-
-// ==========================================
-// CONTACT FORM VALIDATION
-// ==========================================
-
-function validateForm(){
-
-const name =
-document.getElementById("name");
-
-const email =
-document.getElementById("email");
-
-const phone =
-document.getElementById("phone");
-
-if(!name || !email || !phone)
-return true;
-
-if(name.value.trim()===""){
-
-alert("Enter Name");
-return false;
-
-}
-
-if(email.value.indexOf("@")==-1){
-
-alert("Enter Valid Email");
-return false;
-
-}
-
-if(phone.value.length<10){
-
-alert("Enter Valid Phone");
-return false;
-
-}
-
-alert("Form Submitted Successfully");
-
-return true;
-
-}
-
-
-
-
-// ==========================================
-// NEWSLETTER
-// ==========================================
-
-function subscribeNewsletter(){
-
-const email =
-document.getElementById("newsletterEmail");
-
-if(!email) return;
-
-if(email.value.indexOf("@")==-1){
-
-alert("Enter valid email");
-
-}else{
-
-alert(
-"Thank you for subscribing!"
-);
-
-email.value="";
-
-}
-
-}
-
-
-
-
-// ==========================================
-// ANNOUNCEMENT POPUP
-// ==========================================
-
-// window.addEventListener("load",()=>{
-
-// const popup =
-// document.getElementById("announcementPopup");
-
-// if(popup){
-
-// setTimeout(()=>{
-
-// popup.style.display="block";
-
-// },1500);
-
-// }
-
-// });
-
-// function closePopup(){
-
-// const popup =
-// document.getElementById("announcementPopup");
-
-// if(popup){
-
-// popup.style.display="none";
-
-// }
-
-// }
-
-
-
-
-// ==========================================
-// MODAL WINDOW
-// ==========================================
-
-function openModal(id){
-
-const modal =
-document.getElementById(id);
-
-if(modal){
-
-modal.style.display="block";
-
-}
-
-}
-
-function closeModal(id){
-
-const modal =
-document.getElementById(id);
-
-if(modal){
-
-modal.style.display="none";
-
-}
-
-}
-
-
-
-
-// ==========================================
-// DISCLOSURE SEARCH
-// ==========================================
-
-function searchDisclosure(){
-
-const input =
-document.getElementById("disclosureSearch");
-
-if(!input) return;
-
-const filter =
-input.value.toUpperCase();
-
-const rows =
-document.querySelectorAll(
-".disclosure-table tbody tr"
-);
-
-rows.forEach(row=>{
-
-const text =
-row.innerText.toUpperCase();
-
-row.style.display =
-text.indexOf(filter)>-1
-? ""
-: "none";
-
-});
-
-}
-
-
-
-
-// ==========================================
-// DISCLOSURE FILTER
-// ==========================================
-
-function filterDisclosure(){
-
-const select =
-document.getElementById("disclosureFilter");
-
-if(!select) return;
-
-const value =
-select.value.toUpperCase();
-
-const tables =
-document.querySelectorAll(
-".disclosure-card"
-);
-
-tables.forEach(card=>{
-
-const heading =
-card.innerText.toUpperCase();
-
-if(value==="ALL"){
-
-card.style.display="block";
-
-}else if(
-heading.includes(value)
-){
-
-card.style.display="block";
-
-}else{
-
-card.style.display="none";
-
-}
-
-});
-
-}
-
-
-
-
-// ==========================================
-// PRINT DISCLOSURE
-// ==========================================
-
-function printDisclosure(){
-
-window.print();
-
-}
-
-
-
-
-// ==========================================
-// DOWNLOAD PAGE
-// ==========================================
-
-function downloadPage(){
-
-const element =
-document.documentElement.outerHTML;
-
-const blob =
-new Blob([element],
-{type:"text/html"});
-
-const link =
-document.createElement("a");
-
-link.href =
-URL.createObjectURL(blob);
-
-link.download =
-"MandatoryDisclosure.html";
-
-link.click();
-
-}
-
-
-
-
-// ==========================================
-// SMOOTH SCROLL LINKS
-// ==========================================
-
-document.addEventListener("click",function(e){
-
-const link =
-e.target.closest('a[href^="#"]');
-
-if(!link) return;
-
-e.preventDefault();
-
-const target =
-document.querySelector(
-link.getAttribute("href")
-);
-
-if(target){
-
-target.scrollIntoView({
-behavior:"smooth"
-});
-
-}
-
-});
-
-
-
-
-// ==========================================
-// WHATSAPP BUTTON
-// ==========================================
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-const whatsapp =
-document.createElement("a");
-
-whatsapp.className="whatsapp-btn";
-
-whatsapp.href=
-"https://wa.me/919999999999";
-
-whatsapp.target="_blank";
-
-whatsapp.innerHTML="💬";
-
-document.body.appendChild(
-whatsapp
-);
-
-});
-
-
-// ======================================================
-// END OF SCRIPT
-// ======================================================

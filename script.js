@@ -18,7 +18,7 @@ const header = `
 <img src="image/LOGO.jpeg" alt="School Logo">
 
 <div class="logo-text">
-<h2>Apex School of Excellence</h2>
+<h2>APEX SCHOOL OF EXCELLENCE</h2>
 <p>Knowledge • Character • Excellence</p>
 </div>
 </div>
@@ -77,7 +77,7 @@ const footer = `
 <img src="image/LOGO.jpeg" alt="School Logo">
 
 <div>
-<h3>Apex School of Excellence</h3>
+<h3>APEX SCHOOL OF EXCELLENCE</h3>
 <p>Empowering Future Leaders</p>
 </div>
 

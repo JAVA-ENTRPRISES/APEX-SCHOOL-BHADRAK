@@ -134,9 +134,9 @@ Admissions
 
 <h3>Contact Info</h3>
 
-<p>📍 Bhubaneswar, Odisha</p>
-<p>📞 +91 XXXXX XXXXX</p>
-<p>✉ info@apexschool.edu.in</p>
+<p>📍 Bhadrak, Odisha</p>
+<p>📞 +91 9583950211</p>
+<p>✉ asebdk@gmail.com</p>
 
 <div class="social-links">
 

@@ -11,7 +11,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 
 const header = `
-<header id="mainHeader">
+<header id="mainHeader"> 
 <nav>
 
 <div class="logo-area">

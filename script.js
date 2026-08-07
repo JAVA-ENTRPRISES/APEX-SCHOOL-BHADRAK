@@ -29,19 +29,19 @@ const header = `
 
 <ul class="nav-links" id="navLinks">
 
-<li><a href="Index.html">Home</a></li>
+<li><a href="index.html">Home</a></li>
 
-<li><a href="About.html">About Us</a></li>
+<li><a href="about.html">About Us</a></li>
 <li><a href="image.html">Gallery</a></li>
 
 
-<li><a href="Academics.html">Academics</a></li>
+<li><a href="academics.html">Academics</a></li>
 
-<li><a href="Facility.html">Facilities</a></li>
+<li><a href="facility.html">Facilities</a></li>
 
 <li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
 
-<li><a href="Contact.html">Contact</a></li>
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
 
@@ -97,10 +97,19 @@ academic excellence.
 
 <ul>
 
-<li><a href="Index.html">Home</a></li>
-<li><a href="About.html">About</a></li>
-<li><a href="Academics.html">Academics</a></li>
-<li><a href="Facility.html">Facilities</a></li>
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About Us</a></li>
+<li><a href="image.html">Gallery</a></li>
+
+
+<li><a href="academics.html">Academics</a></li>
+
+<li><a href="facility.html">Facilities</a></li>
+
+<li><a href="mandatory disclouser.html">Mandatory Disclosure</a></li>
+
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
 
